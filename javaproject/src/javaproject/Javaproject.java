@@ -5,17 +5,28 @@
  */
 package javaproject;
 
-/**
- *
- * @author SCIS2PC12
- */
-public class Javaproject {
 
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Javaproject {
+    public static void main(String[] args){
+        
+        character homero = new character(name:"Homero", age:39, gender:"A", phrase:"a la grande le puse cuca");
+        character bart = new character(name:"bartolomeo", age:10, gender:"M", prhase:"hay caramba");
     }
+}
+
+class character{
+    String name;
+    int age;
+    char gender;
+    String phrase;
+    
+    public Character(String name, int age, char gender, String phrase){
+    this.name = name;
+    this.age = age;
+    this.gender = gender;
+    this.phrase = phrase;
     
 }
+    
+}
+
